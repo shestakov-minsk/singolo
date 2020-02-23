@@ -1,20 +1,20 @@
 @font-face {
     font-family: "Lato";
-    src: url(assets/fonts/Lato-Regular400.ttf);
+    src: url("./assets/fonts/Lato-Regular400.ttf");
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Lato";
-    src: url(assets/fonts/Lato-Regular400.ttf);
+    src: url("./assets/fonts/Lato-Regular400.ttf");
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Lato";
-    src: url(assets/fonts/Lato-Bol700.ttf);
+    src: url("./assets/fonts/Lato-Bol700.ttf");
     font-weight: 700;
     font-style: normal;
     font-size: 25px;
@@ -23,7 +23,7 @@
 
 @font-face {
     font-family: "Lato";
-    src: url(assets/fonts/Lato-Black900.ttf);
+    src: url("./assets/fonts/Lato-Black900.ttf");
     font-weight: 900;
     font-style: normal;
 }
@@ -78,7 +78,6 @@ body {
 
 .point {
     margin-top: 20px;
- 
     height: 3px;
     width: 3px;
     background-color: #3b4255;
@@ -86,11 +85,20 @@ body {
 
 .nav_link {
     margin: 13px;
+    
+    
+}
+.nav_hover:hover {
+    color: #f06c64;
+    
+    
 }
 
+
 .slider {
-    height: 600px;
+    height: 594px;
     background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
 }
 
 a {
@@ -99,26 +107,52 @@ a {
 }
 
 .content {
-    height: 495px;
+  
     background-color: #f2f2f2;
 }
 
 .our_services {
-    max-width: 960px;
+    margin-top: 0;
+    max-width: 940px;
     height: 198px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
+.our {
+   margin: 0;
+    
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+
+.our_text {
+    margin: 0 15px;
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+}
+
 .services_block {
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.blok {
+.block {
     width: 320px;
     height: 123px;
+    overflow: hidden;
 }
 
 .icons_position {
@@ -129,6 +163,28 @@ a {
 h2 {
     margin: 0;
     margin-left: 92px;
-    font-size: 17px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 18px;
     color: gray;
+    letter-spacing: -0.1px;
+}
+
+.block__description {
+    padding-left: 92px;
+    margin-top: 9px;
+    width: 219px;
+    height: 128px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+}
+
+.block:hover {
+    text-decoration: underline;
+    color: #ea676b;
 }
