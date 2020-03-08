@@ -32,7 +32,7 @@
     margin: 0;
 }
 
-body {
+.zxc {
     width: 1020px;
     margin: auto;
 }
@@ -46,7 +46,7 @@ body {
     border-bottom: 6px solid #ea676b;
 }
 
-h2 {
+.h2zxc {
     font-family: lato;
     font-size: 30px;
     line-height: 18px;
@@ -144,7 +144,7 @@ h2 {
     padding-inline-start: 0px;
 }
 
-h3 {
+.h3zxc {
     font-size: 18px;
     line-height: 18px;
     font-weight: 900;
@@ -159,17 +159,17 @@ h3 {
     font-weight: 400;
 }
 
-ul {
+.ulzxc {
     margin-top: 20px;
     padding-inline-start: 0px;
 }
 
-li {
+.lizxc {
     padding-left: 24px;
     list-style-type: none;
 }
 
-a {
+.azxc {
     text-decoration: none;
     color: #dddddd;
 }
@@ -207,11 +207,11 @@ h4 {
     padding-right: 40px;
 }
 
-.icon {
+.iconzxc {
     margin-left: 3.8px;
 }
 
-.icon:hover {
+.iconzxc:hover {
     opacity: 70%;
     cursor: pointer;
 }

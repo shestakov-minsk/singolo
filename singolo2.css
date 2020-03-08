@@ -32,7 +32,7 @@
     margin: 0;
 }
 
-body {
+.asd{
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -41,14 +41,14 @@ body {
     padding: 40px;
 }
 
-.wrapper {}
+.wrapperasd {}
 
-ul {
+.ulasd {
     padding-top: 15px;
     padding-bottom: 9px;
 }
 
-li {
+.liasd {
     display: inline;
     border: 1px solid #666d89;
     border-radius: 6px;
@@ -96,7 +96,7 @@ h2:hover {
     padding-right: 40px;
 }
 
-p {
+.pasd {
     display: inline-block;
     font-size: 17.48px;
     color: #767e9e;
@@ -121,7 +121,7 @@ p {
     font-size: 17.5px;
 }
 
-h1 {
+.h1asd {
     padding-top: 69px;
     padding-bottom: 32px;
     font-size: 30px;
@@ -132,7 +132,7 @@ h1 {
     text-align: left;
 }
 
-h2 {
+.h2asd {
     padding-top: 13px;
     font-size: 18px;
     line-height: 18px;
